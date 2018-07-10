@@ -4,12 +4,12 @@
 
 速度比较快的是不使用浮点单元的node 0.10 系列。使用浮点单元的0.12 速度也可以接受
 
-不过v0.10下的Map，Set属于半残疾状态。
+发现v0.10 下在--harmony 模式+tsc辅助情况下可以使用Map，Set，Promise，Generator，甚至Proxy，Reflect。
 
-写了点代码补齐它们的功能。
+写了点测试代码和补齐部分Map，Set的功能代码。
 
 需要使用node --harmony file.js 方式运行。
 
-使用tsc 仅是为了使用其for of loop的补齐功能。
-
 tsc --outFile file.js map.ts
+
+tsc --outFile pgtest.js pgtest.ts

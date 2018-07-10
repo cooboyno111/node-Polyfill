@@ -87,6 +87,38 @@ return this.svals;
 Set.prototype.values= function() {
 return this.svals;
 }
+//if nodev0.12+ use this
+/*
+Map.prototype._size = function() {
+return this.size;
+}
+Map.prototype.okeys=Map.prototype.keys;
+Map.prototype.keys= function() {
+var tmp=new Array();
+for(var k of this.okeys()){tmp.push(k);}
+return tmp;
+}
+Map.prototype.ovalues=Map.prototype.values;
+Map.prototype.values= function() {
+var tmp=new Array();
+for(var k of this.ovalues()){tmp.push(k);}
+return tmp;
+}
+Set.prototype._size =function() {
+return this.size;
+}
+Set.prototype.okeys=Set.prototype.keys;
+Set.prototype.keys= function() {
+var tmp=new Array();
+for(var k of this.okeys()){tmp.push(k);}
+return tmp;
+}
+Set.prototype.ovalues=Set.prototype.values;
+Set.prototype.values= function() {
+var tmp=new Array();
+for(var k of this.ovalues()){tmp.push(k);}
+return tmp;
+}*/
 //test code for node v0.10
 //run node --harmony file.js
 var map = new Map();

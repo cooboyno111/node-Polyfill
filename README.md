@@ -12,4 +12,4 @@
 
 使用tsc 仅是为了使用其for of loop的补齐功能。
 
-tsc --outFile file.js map3.ts
+tsc --outFile file.js map.ts

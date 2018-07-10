@@ -6,6 +6,8 @@
 
 发现v0.10 下在--harmony 模式+tsc辅助情况下可以使用Map，Set，Promise，Generator，甚至Proxy，Reflect。
 
+当然let，const，for of loop，箭头函数也ok。
+
 写了点测试代码和补齐部分Map，Set的功能代码。
 
 需要使用node --harmony file.js 方式运行。
@@ -13,3 +15,7 @@
 tsc --outFile file.js map.ts
 
 tsc --outFile pgtest.js pgtest.ts
+
+Proxy,Reflect
+
+https://github.com/tvcutsem/harmony-reflect

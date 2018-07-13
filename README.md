@@ -17,5 +17,3 @@ tsc --outFile file.js map.ts
 tsc --outFile pgtest.js pgtest.ts
 
 Proxy,Reflect
-
-https://github.com/tvcutsem/harmony-reflect

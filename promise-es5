@@ -8,6 +8,7 @@ print(val)
 }
 }
 //for dutapev2.3 or jerryscript es5 promise/a+ 
+//duktape-2.3.0/examples/eventloop ./evloop promise-es5.js
 var D;
 (function(undef) {
     "use strict";

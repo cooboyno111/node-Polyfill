@@ -1,5 +1,5 @@
 //此文件里以280行代码实现了promise/a+ 可以运行于node v0.10,dutapev2.3，jerryscript 
-//for node and dutapev2.3 jerryscript uni println function
+//for node and dutapev2.3 jerryscript-iotjs uni println function
 println=function(val){
 if("undefined" != typeof console){
 console.log(val)
@@ -7,7 +7,7 @@ console.log(val)
 print(val)
 }
 }
-//for dutapev2.3 or jerryscript es5 promise/a+ 
+//for dutapev2.3 or jerryscript-iotjs es5 promise/a+ 
 //duktape-2.3.0/examples/eventloop ./evloop promise-es5.js
 var D;
 (function(undef) {
